@@ -1,5 +1,5 @@
 {
-  "name": "rouges-landing",
+  "name": "rogues-landing",
   "private": true,
   "scripts": {
     "dev": "next dev",

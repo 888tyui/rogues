@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-    title: 'ROUGES — Enter the Shadows',
+    title: 'ROGUES — Enter the Shadows',
     description: 'A dark fantasy action RPG. Master the blade, embrace the night.',
 };
 

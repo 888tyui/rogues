@@ -36,7 +36,7 @@ export default function Home() {
             {/* Loading screen */}
             <div className={`loading-screen ${loaded ? 'loaded' : ''}`}>
                 <div className="loading-title">
-                    {[{ l: 'R', y: 0, ml: 0 }, { l: 'o', y: 8, ml: -3 }, { l: 'u', y: 8, ml: -2 }, { l: 'g', y: 8, ml: -2 }, { l: 'e', y: 8, ml: -3 }, { l: 's', y: 8, ml: -2 }].map((c, i) => (
+                    {[{ l: 'R', y: 0, ml: 0 }, { l: 'o', y: 8, ml: -3 }, { l: 'g', y: 8, ml: -2 }, { l: 'u', y: 8, ml: -2 }, { l: 'e', y: 8, ml: -3 }, { l: 's', y: 8, ml: -2 }].map((c, i) => (
                         <span key={i} className="loading-letter" style={{
                             animationDelay: `${i * 0.15}s`,
                             '--offset-y': `${c.y}px`,
@@ -57,7 +57,7 @@ export default function Home() {
                 opacity: showContent ? 1 : 0,
                 transition: 'opacity 1s ease',
             }}>
-                <h1 className="game-title">Rouges</h1>
+                <h1 className="game-title">Rogues</h1>
                 <div className="title-divider" />
                 <p className="subtitle">The PvP Dungeon Crawler Experience — Web3</p>
                 <div className="action-buttons">
