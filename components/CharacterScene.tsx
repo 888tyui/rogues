@@ -5,7 +5,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { CharacterModel } from './CharacterModel';
 import { KnifeModel } from './KnifeModel';
 import { WallBackground } from './WallBackground';
-import { TitleText3D } from './TitleText3D';
 import * as THREE from 'three';
 
 function Lights() {
