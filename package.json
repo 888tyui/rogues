@@ -7,23 +7,23 @@
     "start": "next start"
   },
   "devDependencies": {
+    "@gltf-transform/core": "^4.3.0",
+    "@gltf-transform/extensions": "^4.3.0",
+    "@gltf-transform/functions": "^4.3.0",
     "@types/node": "^25.3.0",
     "@types/react": "^19.2.14",
     "@types/three": "^0.183.1",
     "fbx2gltf": "^0.9.7-p1",
+    "ktx2-encoder": "^0.5.1",
+    "sharp": "^0.34.5",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@gltf-transform/core": "^4.3.0",
-    "@gltf-transform/extensions": "^4.3.0",
-    "@gltf-transform/functions": "^4.3.0",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
-    "ktx2-encoder": "^0.5.1",
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "sharp": "^0.34.5",
     "three": "^0.183.1"
   }
 }
